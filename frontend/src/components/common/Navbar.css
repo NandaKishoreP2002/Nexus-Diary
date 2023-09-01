@@ -1,0 +1,32 @@
+.nav {
+    background-color: #2A2B2DFF;
+}
+.nav-link{
+    padding: 20px;
+    color: #F1F4FFFF;
+    text-decoration: none;
+}
+.nav-link:hover{
+    background-color: rgb(86, 169, 193);
+    color: black;
+}
+.nav-pic {
+    /* margin:10px; */
+    height: 4rem;
+}
+.nav-active {
+    background-color: #2E5266FF;
+}
+.nav-button {
+    margin-left: 60%;
+    background-color: transparent;
+    text-shadow: none;
+    box-shadow: none;
+    border: none;
+    color: #F1F4FFFF;
+    margin-top: -0.5%;
+}
+.nav-button:hover {
+    background-color: rgb(86, 169, 193);
+    color: black;
+}

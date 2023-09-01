@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=staatliches&display=swap');
+
+.outer-profile{
+    width: 45rem;
+    height: 26rem;
+    margin: 8rem auto 5rem;
+    background-color: rgba(0,0,0,0.5);
+   border-radius: 30px;
+    padding-left: 5rem;
+}
+.profile {
+    padding: 4rem;
+    font-family: staatliches;
+    width: 70rem;
+    height: 30rem;
+    border-radius: 10px;
+    margin-top: 3rem;
+    padding-left: 2rem;
+    /* padding-top: 2rem; */
+}
+
+.name {
+    font-size: 30px;
+}
+
+.input {
+    height: 40px;
+    font-size: 24px;
+    background-color: rgba(66, 65, 66, 0.4);
+    color: white;
+    border: none;
+}
+
+.input:selection {
+    border: none;
+}
+
+.text {
+    font-size: 50px;
+    color: #F1F4FFFF;
+}
+
+.text-value1 {
+    font-size: 35px;
+    color: #F1F4FFFF;
+}
+
+.btn-submit {
+    margin-left: 250px;
+    border-radius: 7px;
+    height: 40px;
+    width: 200px;
+    background-color: rgba(145, 168, 43, 0.9);
+    color: black;
+}
+
+.btn-submit:hover {
+    background-color: rgba(184, 214, 48, 0.7);
+}

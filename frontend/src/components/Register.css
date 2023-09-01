@@ -1,0 +1,97 @@
+.register {
+    margin: 150px auto;
+    display: block;
+}
+
+
+.register-username-input {
+    margin: 0 auto 0;
+    display: block;
+    background-color:  rgba(0,0,0,0.5);
+    border: none;
+    height: 45px;
+    width: 350px;
+    border-radius: 30px;
+    color: #F1F4FFFF;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.register-name-input {
+    margin: 0 auto 0;
+    display: block;
+    background-color:  rgba(0,0,0,0.5);
+    border: none;
+    height: 45px;
+    width: 350px;
+    border-radius: 30px;
+    color: #F1F4FFFF;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+
+.register-diaryname-input {
+    margin: 0 auto 0;
+    display: block;
+    background-color:  rgba(0,0,0,0.5);
+    border: none;
+    height: 45px;
+    width: 350px;
+    border-radius: 30px;
+    color: #F1F4FFFF;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+
+.register-password-input {
+    margin: 0 auto 0;
+    display: block;
+    background-color:  rgba(0,0,0,0.5);
+    border: none;
+    height: 45px;
+    width: 350px;
+    border-radius: 30px;
+    color: #F1F4FFFF;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+
+.register-repassword-input {
+    margin: 0 auto 0;
+    display: block;
+    background-color:  rgba(0,0,0,0.5);
+    border: none;
+    height: 45px;
+    width: 350px;
+    border-radius: 30px;
+    color: #F1F4FFFF;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.register-button {
+    margin: 20px auto;
+    display: block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    background-color: #2E5266FF;
+    border-radius: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    line-height: 26px;
+    width: 100px;
+}
+
+.register-button:hover {
+    background-color: #4A7297FF;
+
+}
+.my-user-plus-icon {
+    font-size: 1.2em;
+  }
