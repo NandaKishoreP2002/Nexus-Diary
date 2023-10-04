@@ -2,7 +2,7 @@ import { useState } from 'react';
 import axios from 'axios';
 import './Login.css';
 import bcrypt from 'bcryptjs';
-import url from './../configurl/url';
+//import url from './../configurl/url';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRightToBracket } from '@fortawesome/free-solid-svg-icons';
 
@@ -11,8 +11,8 @@ function Login(...props) {
     const [loginid, setloginid] = useState('');
     const [password, setpassword] = useState('');   
 
-    //let url1 = '/login';                   // for deployment
-    let url1 = url + '/login';          //for static website 
+    let url1 = '/login';                   // for deployment
+    //let url1 = url + '/login';          //for static website 
     // console.log(props[0].login);
     async function login() {
         if (password === '') {

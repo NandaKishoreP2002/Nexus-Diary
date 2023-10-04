@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useState } from 'react';
 import { useParams, useHistory, Link } from 'react-router-dom';
 import moment from 'moment';
-import url from './../configurl/url';
+//import url from './../configurl/url';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrashCan, faPencil } from '@fortawesome/free-solid-svg-icons';
 
@@ -31,7 +31,8 @@ function Viewentry(...props) {
                 title,
                 entry
             }
-            let url1 = url+'/delete/'+ ind;
+            //let url1 = url+'/delete/'+ ind; //for static website
+            let url1='/delete/'+ind;  //for deployment
             //console.log(url);
             axios.post(url1, data).then(function (response) {
                 console.log("delete side");
