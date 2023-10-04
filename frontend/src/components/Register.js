@@ -3,15 +3,15 @@ import axios from 'axios';
 import './Register.css';
 import bcrypt from 'bcryptjs';
 import { useHistory } from 'react-router-dom'
-//import url from './../configurl/url';
+import url from './../configurl/url';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserPlus } from '@fortawesome/free-solid-svg-icons';
 
 
 function Register(...props) {
-    let url1 = '/signup';                   // for deployment
+    //let url1 = '/signup';                   // for deployment
 
-    //let url1 = url + '/signup';          //for static website
+    let url1 = url + '/signup';          //for static website
     const history = useHistory();
     //console.log(props[0].login);
     const [username, setusername] = useState('');

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useHistory } from 'react-router-dom';
-//import url from './../configurl/url';
+import url from './../configurl/url';
 import { useLocation } from 'react-router-dom';
 import './Edit.css';
 
@@ -13,8 +13,7 @@ function Edit(...props) {
     // console.log(ent);
     const [title, setTitle]=useState(tit);
     const [entry, setEntry]=useState(ent);
-    //const url1=url+'/update/'+ind;      //for static website
-    const url1='/update/'+ind;      //for deployment
+    const url1=url+'/update/'+ind;
     function handleSaveClick() {
         //const opt="edit";
         let data = {

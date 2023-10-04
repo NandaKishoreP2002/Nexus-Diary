@@ -2,12 +2,12 @@ import './Newentry.css';
 import { useState } from 'react';
 import axios from 'axios';
 import { useHistory } from 'react-router-dom';
-//import url from './../configurl/url';
+import url from './../configurl/url';
 
 function Newentry(...props) {
-    //const url1 = url + '/diary/'           //for static website
+    const url1 = url + '/diary/'           //for static website
 
-    const url1 = '/diary/'              //for deployment 
+    //const url1 = '/diary/'              //for deployment 
     const history = useHistory();
     const [title, settitle] = useState('');
     const [entry, setentry] = useState('');
