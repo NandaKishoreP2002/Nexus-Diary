@@ -2,9 +2,6 @@
   "name": "my-diary",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/Paritosh-26dev/dear-diary.git",
-  "author": "Paritosh Dev",
-  "license": "MIT",
   "dependencies": {
     "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
